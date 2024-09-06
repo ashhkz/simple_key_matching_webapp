@@ -1,0 +1,45 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+    margin: 0;
+}
+
+#app {
+    text-align: center;
+}
+
+#buttons {
+    margin-top: 20px;
+}
+
+.key-btn {
+    padding: 20px;
+    margin: 10px;
+    font-size: 24px;
+    cursor: pointer;
+    background-color: #4CAF50; /* Original green color */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.key-btn:hover {
+    background-color: #45a049; /* Hover color */
+}
+
+.key-btn.active {
+    background-color: blue; /* Active (clicked) state */
+}
+
+.key-btn.correct {
+    background-color: darkgreen; /* Correct key press */
+}
+
+.key-btn.wrong {
+    background-color: red; /* Wrong key press */
+}
